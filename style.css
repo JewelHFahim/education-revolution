@@ -4,7 +4,10 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
 
 .carousel-inner img{
     filter: brightness(60%);
@@ -17,8 +20,11 @@ font-family: 'Poppins', sans-serif; */
 
 .feedbackbg{
     background-image: url("images/comma.png");
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
+}
+
+.working{
+    background-color: #F4FAFD;
 }
 
 .fa-star, .fa-star-half-stroke{
@@ -35,4 +41,10 @@ footer ul{
     background-color: rgba(0, 0, 0, 0.343);
     padding: 10px;
     border-radius: 50%;
+}
+
+
+
+.carousel-inner img{
+    filter: brightness(60%);
 }
