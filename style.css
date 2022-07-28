@@ -4,14 +4,6 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-/* .container h2{
-    font-size: 50px;
-} */
-
-/* .cource-img{
-    width: 200px;
-    height: 200px;
-} */
 
 
 .carousel-inner img{
@@ -21,4 +13,14 @@ font-family: 'Poppins', sans-serif; */
 .working img{
     width: 400px;
     height: 550px;
+}
+
+.feedbackbg{
+    background-image: url("images/comma.png");
+    background-repeat: no-repeat;
+    
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: gold;
 }
