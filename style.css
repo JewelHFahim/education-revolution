@@ -14,6 +14,10 @@ font-family: 'Poppins', sans-serif; */
 } */
 
 
+.carousel-inner img{
+    filter: brightness(60%);
+}
+
 .working img{
     width: 400px;
     height: 550px;
