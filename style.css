@@ -5,26 +5,16 @@
 font-family: 'Poppins', sans-serif; */
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
 }
 
 .carousel-inner img{
     filter: brightness(60%);
 }
 
-.working img{
-    width: 400px;
-    height: 550px;
-}
-
-.feedbackbg{
-    background-image: url("images/comma.png");
-    background-repeat: no-repeat; 
-}
 
 .working{
-    background-color: #F4FAFD;
+    background-color: #eaf6fb;
 }
 
 .fa-star, .fa-star-half-stroke{
@@ -43,8 +33,16 @@ footer ul{
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 576px){
+    .trusted{
+        display: none;
+    }
+}
 
+@media only screen and (min-width: 576px) and (max-width: 992px) {
 
-.carousel-inner img{
-    filter: brightness(60%);
+    .trusted{
+        display: none;
+    }
+    
 }
