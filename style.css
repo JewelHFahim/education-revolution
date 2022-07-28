@@ -24,3 +24,15 @@ font-family: 'Poppins', sans-serif; */
 .fa-star, .fa-star-half-stroke{
     color: gold;
 }
+
+footer ul{
+    list-style: none;
+}
+
+.fa-brands{
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.343);
+    padding: 10px;
+    border-radius: 50%;
+}
