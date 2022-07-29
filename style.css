@@ -10,10 +10,9 @@ body{
 .navbar-brand span, span{
     color: orangered;
 }
-.carousel-inner img{
+.carousel-inner .carousel-item img{
     filter: brightness(60%);
 }
-
 
 .working{
     background-color: #eaf6fb;
